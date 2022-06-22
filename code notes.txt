@@ -1,0 +1,28 @@
+Code notes 
+
+first we start with the runner class, which creates the new IMS 
+
+Then we have the  IMS class.
+
+we take in all the DATA access objects and controllers to help with the database integration 
+We then have the do while loop that gets what the user wants, being item order or customer. 
+
+Which is then called from the Domain.java It will take the user input from the command line and change it to uppercase, with validation if an incorrect choice is made
+
+We have the domain enum as well so it keeps the choices as predefined constants
+
+We have our welcome message and a prompt asking what choice you'd like and then asks what youd like to do with it
+
+When a user makes a selection it will call the corresponding choice's controller 
+
+theres an array list of items here so we can alter the tables. and a  while loop to keep asking customers for choices until they wish to stop
+
+the item, customer and order classes contain all the data to be used in the controllers and the Data Access Objectss
+
+Ideally, if this week went a little better i would connect it up to the relational database ive got so it can populate tables and pull from them to list customers, items and whatnot
+
+
+
+SQL
+
+I know its not much but i did a little bit of sql to go along with it
